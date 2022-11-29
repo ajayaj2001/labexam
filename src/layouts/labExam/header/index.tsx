@@ -2,7 +2,8 @@ import { Button, Hidden, Popover, IconButton, Slide, Fade } from '@material-ui/c
 import React from 'react';
 import { BsList } from 'react-icons/bs';
 import Link from 'next/link';
-import { BiCoffeeTogo } from 'react-icons/bi';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+
 export const LabExamHeader = () => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -38,9 +39,9 @@ export const LabExamHeader = () => {
               className="header_button"
               // target="_blank"
               // href="https://www.buymeacoffee.com/ajayaj"
-              startIcon={<BiCoffeeTogo />}
+              startIcon={<AiOutlineShoppingCart />}
             >
-              Home
+              Shop Now
             </Button>
           </Link>
         </Hidden>
@@ -73,9 +74,9 @@ export const LabExamHeader = () => {
                     onClick={handleClose}
                     // target="_blank"
                     // href="https://www.buymeacoffee.com/ajayaj"
-                    startIcon={<BiCoffeeTogo />}
+                    startIcon={<AiOutlineShoppingCart />}
                   >
-                    Home
+                    Shop Now
                   </Button>
                 </Link>
               </div>
