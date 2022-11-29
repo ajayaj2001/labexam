@@ -32,7 +32,7 @@ export const LabExamHeader = () => {
             </a>
           </div>
 
-          <Link href="/" passHref>
+          <Link href="https://albashop.live" passHref>
             <Button
               variant="contained"
               color="primary"
@@ -66,7 +66,7 @@ export const LabExamHeader = () => {
                 <a href="#CC LAB" className="header_mv-link header_tab" onClick={handleClose}>
                   CC
                 </a>
-                <Link href="/" passHref>
+                <Link href="https://albashop.live" passHref>
                   <Button
                     variant="contained"
                     color="primary"
